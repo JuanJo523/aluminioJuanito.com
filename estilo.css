@@ -1,0 +1,202 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+header{
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.0);
+}
+
+nav{
+	width: 100%;
+	height: 100px;
+	margin-top: 5px;
+}
+
+/*div {
+      transition:;
+    }
+
+   #border-box {
+    width:800px;
+    background:rgb(0, 0, 0);
+    padding:20px;
+    border:10px solid rgb(5, 83, 172);
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    float:left;
+  }
+  #border-box{
+    width: 100%;
+}*/
+
+.titulo {
+    color: #000;
+    text-align: center;
+    font-size: 3em;
+}
+.cab_nav{
+	background-color: black;
+    width: 100%;
+    height: 100px;
+}
+
+.cab_nav ul li{
+	list-style: none;
+	display: inline-block;
+	padding: 10px 50px;
+	color: black;
+	font-size: 20px;
+	font-family: sans-serif;
+	cursor: pointer;
+}
+.cab_nav ul li a{
+	text-decoration: none;
+	color: white;
+}
+.cab_nav div img{
+    float: left; 
+    padding-right: 25px;
+}
+.cab_nav h1{
+    color: #fff;
+}
+
+.nomb_logo{
+	width: 330px;
+	padding: 0px 20px;
+	float: left;
+	position: relative;
+	top: 5%;
+	left: 2%;
+	color: #000000;
+	font-size: 30px;
+}
+.logo_img{
+width: 80px;
+position: absolute;
+transform: traslateX(-1520%) translateY(-15px);
+}
+.parrafo_cont{
+	font-size: 20px;
+	text-align: justify;
+}
+.foot{
+	background-color: rgba(0, 0, 0, 0.6);
+	margin-top: 5%;
+	width: 100%;
+	padding: 20px 0px;
+	position: relative;
+}
+.foot_p{
+	color: #ffff;
+	text-align: center;
+}
+
+.contenedor-sobre-nosotros{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.imagen-about-us1{
+    width: 60%;
+}
+
+.sobre-nosotros .contenido-textos{
+    width: 48%;
+}
+.contenido-textos h3{
+    margin-bottom: 15px;
+    color: #000000;
+}
+.contenido-textos h3 span{
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    padding: 2px;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
+    margin-right: 5px;
+}
+
+.contenido-textos p{
+    padding: 0px 0px 30px 15px;
+    font-weight: 300;
+    text-align: justify;
+}
+
+.textos-header{
+	float: left;
+}
+{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+    line-height: 1.6;
+    font-family: 'Quicksand', sans-serif;
+    padding: 0 1.5em;
+}
+nav > a{
+    color:rgb(0, 0, 0);
+    font-weight: 300;
+    text-decoration: none;
+    margin-right: 10px;
+}
+nav > a:hover{
+    text-decoration: underline;
+}
+.galeria-port{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.imagen-port{
+    width: 24%;
+    margin-bottom: 10px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
+}
+
+.imagen-port > img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}   
+.hover-galeria{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    transform: scale(0);
+    background: rgba(17, 255, 29, 0.938);
+    transition: transform .5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hover-galeria img{
+    width: 50px;
+}
+
+.hover-galeria p{
+    color: #fff;
+}
+
+.imagen-port:hover .hover-galeria{
+    transform: scale(1);
+}
+
